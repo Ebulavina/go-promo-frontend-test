@@ -1,0 +1,1 @@
+# go-promo-frontend-test
