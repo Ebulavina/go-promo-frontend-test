@@ -12,7 +12,7 @@ pngquant = require('imagemin-pngquant');
 
 sources = {
   jade: "jade/**/*.jade",
-  stylus: "stylus/**/*.stylus",
+  stylus: "stylus/**/*.styl",
 };
 
 destinations = {

@@ -2,16 +2,31 @@ doctype html
 html
 	head
 		title About
+		link(href='/css/app.css', rel='stylesheet')
 body
-	span MENU
-	img(src="/images/menu.png")
-	div.block-about
-		p That's an interesting thing about design defines so much more than what products have a very minimalist way. From a designer's point of being so many ways, but very complicated the defining what products become in many of the other four parts? True simplicity. I think there is very complicated problems without letting people have always thought about the absence of design defines so much that seem to mean so much of consequence is a profound and its context. There's no other four parts? Powerpoint. Great design is to perform the way beyond the leading edge in terms of defining what we also acknowledge that it has a product that effort. Great design makes it does not the essential, so much more than the design is honest!
-	div.block-services 
-		img(src="/images/services-about.png")
-		p.block-services_elem-column1 We’ll work with you to define a strong visual identity. One that communicates your values through a cohesive story and brings your business to life in print and online.
-		p.block-services_elem-column2
+	div.wrapper 
+		div.block-header 
+			img.block-logo(src="images/cd-logo.png")
+			div.block-menu
+				span.block-menu_elem-name MENU
+				img.block-menu_elem-icon(src="/images/menu.png")
+				div.block-down
+				img.block-down_elem-iconDown(src="/images/iconDown.png")
+		div.block-about
+			p.block-about_elem-text That's an interesting thing about design defines so much more than what products have a very minimalist way. From a designer's point of being so many ways, but very complicated the defining what products become in many of the other four parts? True simplicity. I think there is very complicated problems without letting people have always thought about the absence of design defines so much that seem to mean so much of consequence is a profound and its context. There's no other four parts? Powerpoint. Great design is to perform the way beyond the leading edge in terms of defining what we also acknowledge that it has a product that effort. Great design makes it does not the essential, so much more than the design is honest!
+		div.block-services
+			img.block-services_elem-img(src="/images/services-about.png")
+			div.block-services-elem-txt 
+				h1.block-services_elem-name Services
+				p.block-services_elem-clmn1 We’ll work with you to define a strong visual identity. One that communicates your values through a cohesive story and brings your business to life in print and online.
+				ul.block-services_elem-clmn2 
+					li -  Branding 
+					li -  Visual Identity 
+					li -  Web & Digital Design 
+					li -  Annual Reports 
+					li -  Books & Brochures 
+					li -  Programs & Editorial
+					li -  Creative Consultancy
 	footer
-		div
-			span &copy; 2014 Designed and Developed by Diogo Dantas
-			span Email: imdiogodantas@gmail.com
+		span.block-footer_elem-txt &copy; 2014 Designed and Developed by Diogo Dantas
+		span.block-footer_elem-txt Email: imdiogodantas@gmail.com
