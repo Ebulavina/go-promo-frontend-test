@@ -6,10 +6,8 @@ html
 body
 	div.wrapper 
 		div.block-header 
-			img.block-logo(src="images/cd-logo.png")
 			div.block-menu
-				span.block-menu_elem-name MENU
-				img.block-menu_elem-icon(src="/images/menu.png")
+				include ./block-menuHeader.jade
 				div.block-down
 				img.block-down_elem-iconDown(src="/images/iconDown.png")
 		div.block-about
@@ -27,6 +25,4 @@ body
 					li -  Books & Brochures 
 					li -  Programs & Editorial
 					li -  Creative Consultancy
-	footer
-		span.block-footer_elem-txt &copy; 2014 Designed and Developed by Diogo Dantas
-		span.block-footer_elem-txt Email: imdiogodantas@gmail.com
+	include ./footer.jade
