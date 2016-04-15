@@ -274,6 +274,53 @@ footer {
   margin-bottom: 65px;
 }
 
+.wrapperContact {
+  background: #fff;
+}
+.block-contactHeader {
+  background: url("/images/contact-bg.jpg") 0 0 no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.block-contactMenu {
+  width: 769px;
+  margin: 0 auto;
+  text-align: center;
+}
+.block-contactMenu_elem-name {
+  margin: 90px auto;
+}
+.block-contactMenu_elem-name1 {
+  font-size: 10pt;
+  color: #d4af37;
+  font-weight: 600;
+}
+.block-contactMenu_elem-name2 {
+  font-size: 38pt;
+  color: #021725;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.block-contactMenu_elem-container {
+  width: auto;
+}
+.block-contactMenu_elem-cd1 {
+  background: #d4af37;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.block-contactMenu_elem-cd1_elem-txt {
+  color: #fff;
+  font-size: 17pt;
+  display: inline-block;
+  width: 185px;
+  margin: 43px 26px;
+}
+
 footer {
   height: 93px;
   text-align: center;
