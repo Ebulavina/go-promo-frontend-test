@@ -377,3 +377,19 @@ footer {
   padding: 41px 74px 0 74px;
   display: inline-block;
 }
+
+.block-indexHeader {
+  background: url("/images/index-bg.jpg") center center no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.block-indexHeader_elem-name {
+  font-size: 60pt;
+  color: #fff;
+  font-weight: lighter;
+}
+.block-indexHeader_elem-wrapperName {
+  display: inline-block;
+  width: 1064px;
+}

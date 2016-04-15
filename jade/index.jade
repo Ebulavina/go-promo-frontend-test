@@ -1,13 +1,12 @@
 doctype html
 html
 	head
-		title Default title
+		title Index
 		link(href='/css/app.css', rel='stylesheet')
-			
-Body
-	div
-		h1 Test
-		p bla bla
-		a(href="about.html") ABOUT HTML
-	div
-		footer &copy; Bulavka
+	body
+		div.wrapperIndex
+			div.block-indexHeader
+				include ./block-menuHeader.jade
+				div.block-indexHeader_elem-wrapperName
+					h1.block-indexHeader_elem-name Say Haloa to your Portfolio
+		include ./footer.jade
