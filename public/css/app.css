@@ -472,6 +472,9 @@ footer {
   padding-left: 2px;
   padding-right: 4px;
 }
+.block-info_elem-wrapperInfo:nth-child(2) {
+  width: 244px;
+}
 .block-info_elem-img {
   display: block;
 }
@@ -497,4 +500,101 @@ div.block-info_elem-bio>h4.block-indexAbout_elem-name1 {
   font-size: 10pt;
   font-weight: lighter;
   width: 200px;
+}
+.block-indexLastPost {
+  width: 769px;
+  text-align: center;
+  margin: 0 auto;
+}
+.block-indexLastPost_elem-wrapper {
+  padding-top: 50px;
+  text-align: center;
+}
+.block-indexLastPost_elem-img {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 390px;
+}
+.block-wrapper_elem-info {
+  display: inline-block;
+  background: #f9f9f9;
+  width: 50%;
+  float: right;
+  text-align: left;
+  height: 390px;
+}
+div.block-wrapper_elem-info>h4.block-blogInfo_elem-name_2 {
+  background: none;
+  color: #021725;
+  font-size: 10pt;
+  padding: 44px 40px 10px;
+}
+div.block-wrapper_elem-info>.block-info_elem-name {
+  padding-left: 40px;
+}
+div.block-wrapper_elem-info>.block-info_elem-txt {
+  padding: 22px 40px 10px;
+  width: 260px;
+}
+div.block-wrapper_elem-info>button.block-blogInfo_elem-button {
+  margin: 56px 40px;
+  background: #f9f9f9;
+  width: 128px;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 10pt;
+  font-weight: lighter;
+}
+div.block-indexLastPost_elem-wrapper>button.block-blogInfo_elem-button {
+  margin: 80px auto;
+  width: 239px;
+  font-size: 10pt;
+  font-weight: lighter;
+  display: inline-block;
+}
+.block-indexContact {
+  width: 769px;
+  text-align: center;
+  margin: 0 auto;
+}
+div.block-indexContact>h1.block-indexAbout_elem-name2 {
+  padding-bottom: 54px;
+}
+.block-indexContact_elem-img {
+  width: 100%;
+  display: block;
+}
+.block-indexContact_elem-wrapper {
+  margin-bottom: 80px;
+  display: inline-block;
+}
+.block-indexContact_elem-wrapperContact {
+  width: 769px;
+  text-align: center;
+  margin: 0 auto 80px;
+}
+.block-indexContact_elem-contact {
+  display: inline-block;
+  float: left;
+  height: 206px;
+  background: #f9f9f9;
+  width: 50%;
+  vertical-align: middle;
+}
+.block-indexContact_elem-name {
+  color: #021725;
+  font-size: 10pt;
+  font-weight: 600;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  opacity: 0.8;
+}
+.block-indexContact_elem-txt {
+  color: #021725;
+  font-size: 14pt;
+  font-weight: lighter;
+  width: 210px;
+  display: inline-block;
+  opacity: 0.6;
 }
