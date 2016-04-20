@@ -6,6 +6,15 @@ footer
   display: inline-block
   margin-top: -10px
 
-.block-footer_elem-txt
-  padding: 41px 74px 0 74px
-  display: inline-block
+.footer
+  &__txt
+    padding: 41px 74px 0 
+    display: inline-block
+
+@media screen and (max-width:890px) and (max-height:1336px)
+  footer
+    height: auto
+  .footer
+    &__txt:nth-child(2)
+      padding: 10px 74px 41px
+      display: inline-block
